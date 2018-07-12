@@ -1,10 +1,10 @@
-n=int(input())
-k=int(input())
+x=input()
+x=x.split()
+n=int(x[0])
+k=int(x[1])
 lis=[]
-sum=0
-for i in range(n):
-  num=int(input())
-  lis.append(num)
+x=int(input())
+x=x.split()
 for i in range(k):
-  sum=sum+lis[i]
+  sum=sum+int(x[i])
 print (sum)

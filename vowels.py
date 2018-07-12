@@ -1,5 +1,5 @@
 al=input()
-if al=='a' or al=='e' or al=='o' or al=='i' or al=='u':
+if al=='a' or al=='e' or al=='i' or al=='o' or al=='u':
   print("Vowel")
 elif al=='#' or al=='&' or al=='$'or al=='@':
   print("Invalid")
